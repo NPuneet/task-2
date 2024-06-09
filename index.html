@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Display</title>
+   <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="sort-buttons">
+      <button id="sortPriceAsc">Sort By Price Low To High</button>
+      <button id="sortPriceDesc">Sort By Price High to Low</button>
+      <button id="sortRatingDesc">Sort By Rating (High to Low)</button>
+    </div>
+    <div class="search-section">
+      <input type="text" id="searchInput" placeholder="Search products" />
+      <button id="searchButton">Search</button>
+      <button id="clearSearchButton">Clear Searches</button>
+    </div>
+    <div class="category-section" id="category-section"></div>
+    <button id="clearCategoriesButton">Clear All Categories</button>
+    <div id="product-container"></div>
+
+    <script src="file.js"></script>
+  </body>
+</html>
